@@ -7,3 +7,16 @@ This repository contains the code and results of a research project that:
 - Labels traffic according to APT stages (Reconnaissance, Establish Foothold, Lateral Movement, Data Exfiltration, Benign)
 - Trains and tunes a Random Forest model
 - Evaluates performance with accuracy (~99%), precision, recall, F1-score and confusion matrices
+
+## Dataset
+
+This project uses the **DAPT 2020** benchmark dataset (Advanced Persistent Threat network traffic).
+
+### How to get the dataset
+
+1. Go to the official Kaggle page:  
+   [https://www.kaggle.com/datasets/sowmyamyneni/dapt2020](https://www.kaggle.com/datasets/sowmyamyneni/dapt2020)
+
+2. Download the dataset (you need a free Kaggle account).
+
+3. Place the downloaded files in a folder named `csv/` inside the project root:
